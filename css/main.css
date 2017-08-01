@@ -37,7 +37,7 @@ h1 {
 }
 
 h2 {
-  text-align: center;
+  text-align: left;
   color: purple;
   font-size: 2.4em;
 }
@@ -50,5 +50,7 @@ p {
 }
 work ul {
   text-align: left;
-  font-size: 1.1em;
+      font-size: 1.5em;
+    line-height: 1.4em;
+    color: #333;
 }
