@@ -2,7 +2,7 @@ title {
   text-align: center;
   color: black;
   font-family: helvetica;
-  font-size: 40px;
+  font-size: 3em;
 }
 
 body {
@@ -42,25 +42,22 @@ ul.posts li {
 h1 {
   text-align: center;
   color: purple;
-  font-family: helvetica;
-  font-size: 40px;
+  font-size: 2.4em;
 }
 
 h2 {
   text-align: center;
   color: purple;
-  font-family: helvetica;
-  font-size: 40px;
+  font-size: 2.4em;
 }
 
 p {
+    text-align: center;
     font-size: 1.5em;
     line-height: 1.4em;
     color: #333;
 }
 work li ul {
   text-align: left;
-  color: black;
-  font-family: helvetica;
-  font-size: 14px;
+  font-size: 1.1em;
 }
