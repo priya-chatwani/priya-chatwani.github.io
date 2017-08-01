@@ -25,6 +25,11 @@ footer {
     font-size: .8em;
 }
 
+img {
+    border-radius: 8px;
+    vertical-align: center;
+}
+
 h1 {
   text-align: center;
   color: purple;
