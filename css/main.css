@@ -48,9 +48,9 @@ p {
     line-height: 1.4em;
     color: #333;
 }
-work ul {
+section ul {
   text-align: left;
-      font-size: 1em;
-    line-height: 0.8em;
-    color: #333;
+  font-size: 1em;
+  line-height: 0.8em;
+  color: #333;
 }
