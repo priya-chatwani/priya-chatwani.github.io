@@ -115,7 +115,7 @@ body {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url(../img/6241688960_IMG_2682.jpg");
+  background-image: url("../img/6241688960_IMG_2682.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
