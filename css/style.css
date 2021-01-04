@@ -1,0 +1,211 @@
+body {
+    font-family: 'Open Sans', serif;
+}
+
+.header {
+    font-family: 'Open Sans', serif;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 50px;
+    font-family: 'Kalam', serif;
+    color: #2274A5;
+}
+
+.header-text {
+    font-size: 22px;
+}
+
+.navBar {
+    font-size: 30px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navBarHeading {
+    display: inline;
+}
+
+.navBarHeading a {
+    display: inline-block;
+    color: slategrey;
+    margin: 0px 20px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: none;
+}
+
+.dropdown .dropbtn {
+    border: none;
+    outline: none;
+    color: slategrey;
+    background-color: white;
+    font-family: inherit;
+    font-size: 30px;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    color: #E83F6F;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    font-size: 20px;
+    background-color: white;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: slategrey;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+li a:hover {
+    color: #E83F6F;
+}
+
+.flex-col-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    border-radius: 15px;
+    max-height: 600px;
+    margin: 20px;
+}
+
+.text {
+    margin: 20px 100px;
+    font-size: 16px;
+}
+
+.text-guide {
+    margin: 20px 150px;
+    font-size: 16px;
+}
+
+.margin {
+    margin: 10px;
+}
+
+.subheading {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.footer {
+    display: flex;
+    font-size: 25px;
+    margin: 0 40px;
+    color: slategrey;
+}
+
+.copyright {
+    font-size: 16px;
+}
+
+.fa {
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: slategrey;
+}
+
+.fa:hover {
+    color: #E83F6F;
+}
+
+.fa-twitter {
+    padding-left: 10px;
+}
+
+.resume-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 40px;
+}
+
+.centered-text {
+    text-align: center;
+}
+
+.left-aligned {
+    text-align: left;
+}
+
+.heading {
+    font-weight: bold;
+    font-size: 24px;
+    color: #2274A5;
+    text-align: center;
+}
+
+.profile-pic {
+    border-radius: 15px;
+    height: 150px;
+    margin: 0 20px;
+}
+
+.resume-pic {
+    height: 220px;
+    border-radius: 15px;
+    margin: 0 20px;
+}
+
+.logo {
+    border-radius: 15px;
+    height: 150px;
+    margin: 0;
+}
+
+.travel-pic {
+    border-radius: 15px;
+    height: 300px;
+    margin: 60px;
+    display: flex;
+}
+
+.popcorn-pic {
+    border-radius: 15px;
+    height: 300px;
+    margin: 5px;
+    display: flex;
+}
+
+.pit-pic {
+    border-radius: 15px;
+    height: 300px;
+    margin: 20px;
+}
+
+.padding {
+    padding: 20px;
+}
