@@ -112,6 +112,11 @@ iframe {
     font-size: 16px;
 }
 
+.about-text {
+    margin: 30px;
+    font-size: 16px;
+}
+
 .text-guide {
     margin: 20px 150px;
     font-size: 16px;
@@ -186,9 +191,14 @@ iframe {
     margin: 0 20px;
 }
 
+.about-img {
+    max-height: 1000px;
+    margin: 0;
+}
+
 .logo {
     border-radius: 15px;
-    height: 150px;
+    height: 200px;
     margin: 0;
 }
 
