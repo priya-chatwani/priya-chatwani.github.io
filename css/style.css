@@ -1,6 +1,6 @@
 body {
     font-family: 'Open Sans', serif;
-    background-color: #000;
+    background-color: #15202b;
     color: white;
 }
 
@@ -53,7 +53,7 @@ body a {
     border: none;
     outline: none;
     color: white;
-    background-color: black;
+    background-color: #15202b;
     font-family: inherit;
     font-size: 20px;
     margin: 0;
@@ -67,7 +67,7 @@ body a {
     display: none;
     position: absolute;
     font-size: 20px;
-    background-color: black;
+    background-color: #15202b;
     z-index: 1;
 }
 
