@@ -31,25 +31,12 @@ iframe {
     max-width: 100%;
 }
 
-/* The sticky class is added to the header with JS when it reaches its scroll position */
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
-/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
-.sticky+.body {
-    padding-top: 20px;
-}
-
 h1 {
     text-align: center;
     font-size: 40px;
 }
 
 h2 {
-    text-align: center;
     font-size: 30px;
     font-family: 'Kalam', serif;
     color: #02A9EA;
@@ -77,6 +64,15 @@ h5 {
     margin-bottom: 0;
 }
 
+.bold {
+    font-weight: bold;
+}
+
+.social-icons {
+    font-size: 24px;
+    text-align: center;
+}
+
 .center-text {
     text-align: center;
 }
@@ -88,17 +84,7 @@ h5 {
 
 .header-text {
     font-size: 22px;
-}
-
-.navBar {
-    font-size: 20px;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    color: #02A9EA;
 }
 
 .social-media-list {
@@ -106,22 +92,7 @@ h5 {
     text-align: center;
 }
 
-.navBarHeading {
-    display: inline;
-}
-
-.navBarHeading a {
-    display: inline-block;
-    color: white;
-    margin: 0px 20px;
-    text-decoration: none;
-}
-
-.selectedTab {
-    font-size: 26px;
-}
-
-.navbar a:hover {
+a:hover {
     color: #FF01FB;
 }
 
@@ -148,7 +119,7 @@ h5 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 200px;
+    margin: 0 16%;
 }
 
 .flex-1 {
@@ -161,25 +132,12 @@ h5 {
     width: 400px;
 }
 
-.hobbies-text {
-    margin: 0px 100px;
-    font-size: 16px;
-}
-
-.embedded-map {
-    margin: 10px;
-}
-
 footer {
-    display: flex;
-    font-size: 25px;
+    text-align: right;
+    font-size: 16px;
     margin: 20px 40px 0 0;
     /* top | horizontal | bottom */
     color: white;
-}
-
-.copyright {
-    font-size: 16px;
 }
 
 .fa {
