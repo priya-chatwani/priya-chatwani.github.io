@@ -108,6 +108,14 @@ a:hover {
     padding: 20px;
 }
 
+.flex-col-left-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    /* width: 40%; */
+}
+
 .flex-container {
     display: flex;
     justify-content: center;
@@ -136,7 +144,6 @@ footer {
     text-align: right;
     font-size: 16px;
     margin: 20px 40px 0 0;
-    /* top | horizontal | bottom */
     color: white;
 }
 
@@ -184,6 +191,15 @@ footer {
 
 .padded-section {
     padding: 0 20px;
+}
+
+.navBar {
+    display: flex;
+    list-style-type: none;
+}
+
+.navBarHeading {
+    margin-right: 8px;
 }
 
 /* Use a media query to add a breakpoint at 800px: */
