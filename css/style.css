@@ -207,14 +207,19 @@ footer {
     .text {
         margin: 0;
     }
+    .flex-col-container {
+        padding: 20px 0;
+    }
     .flex-container {
         flex-direction: column;
     }
     .flex-container-skinny {
         flex-direction: column;
+        margin: 0;
     }
     img {
         padding: 10px;
+        width: 40%;
     }
     .travel-pic {
         margin: 0;
@@ -238,5 +243,8 @@ footer {
     }
     .flex-start {
         align-self: center;
+    }
+    footer {
+        margin: 0;
     }
 }
