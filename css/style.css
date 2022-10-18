@@ -212,6 +212,10 @@ footer {
     }
     .flex-container {
         flex-direction: column;
+        padding: 0;
+    }
+    .flex-col-left-container {
+        padding: 0;
     }
     .flex-container-skinny {
         flex-direction: column;
@@ -243,6 +247,9 @@ footer {
     }
     .flex-start {
         align-self: center;
+    }
+    h3 {
+        padding: 0 12px;
     }
     footer {
         margin: 0;
