@@ -168,6 +168,18 @@ body {
     border: none;
 }
 
+.orgLogo {
+    margin: 0 10px;
+    height: 200px;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 200px;
+}
+
+.vep {
+    border-radius: 30px;
+}
+
 .danceItem {
     width: 45%;
     height: 320px;
@@ -231,8 +243,42 @@ body {
     background-image: url("../img/media/reboot.png")
 }
 
-.newamerica {
+.justDataLab {
+    height: 600px;
+    background-image: url("../img/media/jdl.png")
+}
+
+.defund {
+    background-image: url("../img/orgLogos/defund.jpeg")
+}
+
+.flexColumn {
+    text-align: center;
+    display: flex;
+    width: 45%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.graceHopper {
+    height: 360px;
+    width: 100%;
+    background-image: url("../img/media/gh.jpg")
+}
+
+.newAmerica {
+    width: 100%;
     background-image: url("../img/media/newamerica.png")
+}
+
+.rg {
+    background-image: url("../img/orgLogos/rg.jpeg")
+}
+
+.bass {
+    background-position: top;
+    background-image: url("../img/orgLogos/bass.png")
 }
 
 /* Footer */
@@ -338,6 +384,10 @@ body a {
         align-items: center;
     }
 
+    .graceHopper {
+        margin-top: 32px;
+    }
+
     .mediaItem {
         margin-bottom: 32px;
         width: 100%;
@@ -347,6 +397,15 @@ body a {
         width: 100%;
         flex-direction: column;
         margin-bottom: 0;
+        align-items: center;
+    }
+
+    .flexColumn {
+        width: 100%;
+    }
+
+    .orgLogo {
+        margin: 10px;
     }
 
     .writtenMediaContent {
