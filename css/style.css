@@ -244,8 +244,9 @@ body {
 }
 
 .justDataLab {
-    height: 600px;
-    background-image: url("../img/media/jdl.png")
+    height: 100%;
+    cursor: pointer;
+    width: 45%;
 }
 
 .defund {
@@ -389,6 +390,11 @@ body a {
     }
 
     .mediaItem {
+        margin-bottom: 32px;
+        width: 100%;
+    }
+
+    .justDataLab {
         margin-bottom: 32px;
         width: 100%;
     }
