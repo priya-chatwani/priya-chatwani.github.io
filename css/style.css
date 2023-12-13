@@ -136,6 +136,11 @@ body {
     flex-direction: column;
 }
 
+.danceContent {
+    width: 80%;
+    display: flex;
+}
+
 .mediaContentRow {
     display: flex;
     justify-content: space-evenly;
@@ -180,9 +185,18 @@ body {
     border-radius: 30px;
 }
 
+.mediaColumn {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 12px;
+    align-items: center;
+}
+
 .danceItem {
-    width: 45%;
-    height: 320px;
+    height: 100%;
+    width: 100%;
+    margin: 12px;
 }
 
 .speakingItem {
@@ -227,10 +241,6 @@ body {
     background-image: url("../img/media/sgs2.png");
 }
 
-.bqueer {
-    background-image: url("../img/media/bqueer.jpeg");
-}
-
 .ktla {
     background-image: url("../img/media/ktla5.png")
 }
@@ -239,14 +249,9 @@ body {
     background-image: url("../img/media/gracehopper.png")
 }
 
-.reboot {
-    background-image: url("../img/media/reboot.png")
-}
-
-.justDataLab {
-    height: 100%;
+.kernelMag {
     cursor: pointer;
-    width: 45%;
+    width: 100%;
 }
 
 .defund {
@@ -394,9 +399,16 @@ body a {
         width: 100%;
     }
 
-    .justDataLab {
-        margin-bottom: 32px;
+    .kernelMag {
         width: 100%;
+    }
+
+    .newAmerica {
+        margin-bottom: 0;
+    }
+
+    .graceHopper {
+        margin-bottom: 0;
     }
 
     .mediaContentRow {
@@ -406,8 +418,18 @@ body a {
         align-items: center;
     }
 
+    .danceContent {
+        flex-direction: column;
+        width: 100%;
+    }
+
     .flexColumn {
         width: 100%;
+        margin-bottom: 32px;
+    }
+
+    .mediaColumn {
+        margin: 0;
     }
 
     .orgLogo {
@@ -426,7 +448,7 @@ body a {
 
     .danceItem {
         width: 100%;
-        margin-bottom: 32px;
+        margin-bottom: 0;
     }
 
     .bannerText {
