@@ -98,7 +98,7 @@ body {
 
 .paddedTextBlock {
     padding: 12px;
-    margin: 0 8%;
+    margin: 0 2%;
 }
 
 .mediaHeadings {
@@ -290,15 +290,14 @@ body {
 /* Footer */
 
 footer {
-    text-align: center;
+    text-align: right;
     margin-bottom: 16px;
 }
 
 /* Images */
 
 .headshot {
-    width: 400px;
-    border-radius: 50%;
+    width: 500px;
 }
 
 .banner {
